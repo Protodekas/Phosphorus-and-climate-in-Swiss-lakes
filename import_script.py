@@ -14,7 +14,6 @@ def load_excel(file_path):
 # Chargement des fichiers
 files = {
     'phosphore': 'phosphorus-lakes.xlsx',
-    'qualite_vie': 'quality-of-life.xlsx',
     'climat': 'weather-data.xlsx'
 }
 
