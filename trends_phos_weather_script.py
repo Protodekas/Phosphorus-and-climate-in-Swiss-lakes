@@ -2,8 +2,6 @@
 import pandas as pd
 from scipy.stats import linregress
 import matplotlib.pyplot as plt
-import ipywidgets as widgets
-from IPython.display import display
 import json
 
 # Importing phosphorus dataset
@@ -55,43 +53,6 @@ def plot_graph(dataframes, x_col, y_cols, title, xlab, xlim_inf, xlim_sup, ylab)
     plt.tight_layout()
     plt.show()
 
-# Function for plotting interactive graphs
-def interactive_plot(df, x_col, y_cols, title, xlab, xlim_inf, xlim_sup, ylab):
-    cmap = plt.get_cmap("tab20")
-    num_colors = cmap.N
-
-    # Widget to select stations dynamically
-    station_selector = widgets.SelectMultiple(
-        options = y_cols,
-        value = tuple(y_cols[:3]), # Default: first 3 stations selected
-        description = "Stations:",
-        style = {"description_width": "initial"}
-    )
-
-    # Function to update dynamically the plot
-    def update_plot(selected_stations):
-        plt.figure(figsize=(12, 8))
-
-        for i, station in enumerate(selected_stations):
-            color = cmap(i % num_colors)
-            plt.plot(df[x_col], df[station], marker = "o", linestyle = "-", label = station, color = color, alpha = 0.8)
-        
-        plt.title(title)
-        plt.xlabel(xlab)
-        plt.ylabel(ylab)
-        plt.grid(True)
-        plt.xlim(xlim_inf, xlim_sup)
-        plt.legend(bbox_to_anchor = (1.05,1), loc = "upper left")
-        plt.tight_layout()
-        plt.show()
-    
-    # Create an interactive widget
-    widgets.interactive(update_plot, selected_stations = station_selector)
-
-    # Display the widget
-    display(station_selector)
-    update_plot(station_selector.value) # Show the intial plot
-
 # Function for comparing trends
 def compare_trends(trend1, trend2):
     if trend1["trend"] == trend2["trend"]:
@@ -107,20 +68,21 @@ comparisons = {}
 # Phosphorus analysis
 lakes = phosphorus.columns[1:]
 data_to_plot = []
-trends_results["phosphorus"] = {}
-descriptive_stats["phosphorus"] = {}
+trends_results["Phosphorus"] = {}
+descriptive_stats["Phosphorus"] = {}
 for lake in lakes:
     trend = detect_trends(phosphorus, "Year", lake)
     stats = desc_stat(phosphorus, "Year", lake)
     if trend:
-        trends_results["phosphorus"][lake] = trend
-        descriptive_stats["phosphorus"][lake] = stats
+        trends_results["Phosphorus"][lake] = trend
+        descriptive_stats["Phosphorus"][lake] = stats
         data_to_plot.append((phosphorus, lake, lake))
 plot_graph(data_to_plot, "Year", lakes, "Phosphorus trend", "Years", 1952, 2028, "Water phosphorus concentration (µg/l)")
 
 # Weather analysis
-for dataset_name, dataset in [("insolation", insolation), ("rainfall", rainfall), ("temperature", temperature), ("snow", snow)]:
+for dataset_name, dataset, y_legend in [("Insolation", insolation, "Annual insolation time (hour)"), ("Rainfall", rainfall, "Annual rainfall (mm)"), ("Temperature", temperature, "Annual mean temperature (°C)"), ("Snow", snow, "Annual fresh snow (cm)")]:
     stations = dataset.columns[1:]
+    data_to_plot = []
     trends_results[dataset_name] = {}
     descriptive_stats[dataset_name] = {}
 
@@ -131,30 +93,20 @@ for dataset_name, dataset in [("insolation", insolation), ("rainfall", rainfall)
         if trend:
             trends_results[dataset_name][station] = trend
             descriptive_stats[dataset_name][station] = stats
+            data_to_plot.append((dataset, station, station))
 
-# Interactive plot for weather datas
-# Insolation
-interactive_plot(insolation, "Year", insolation.columns[1:], "Insolation trend", "Years", 1926, 2029, "Annual insolation time (hour)")
-
-# Rainfall
-interactive_plot(rainfall, "Year", rainfall.columns[1:], "Rainfall trend", "Years", 1926, 2029, "Annual rainfall (mm)")
-
-# Temperature
-interactive_plot(temperature, "Year", temperature.columns[1:], "Temperature trend", "Years", 1926, 2029, "Annual mean temperature (°C)")
-
-# Fresh snow
-interactive_plot(snow, "Year", snow.columns[1:], "Fresh snow trend", "Years", 1926, 2029, "Annual fresh snow (cm)")
+    plot_graph(data_to_plot, "Year", stations, f"{dataset_name} trend", "Years", 1926, 2029, y_legend)
 
 # Comparing trends
-for lake, phos_trend in trends_results["phosphorus"].items():
-    for climate_type in ["insolation", "rainfall", "temperature", "snow"]:
+for lake, phos_trend in trends_results["Phosphorus"].items():
+    for climate_type in ["Insolation", "Rainfall", "Temperature", "Snow"]:
         for station, climate_trend in trends_results[climate_type].items():
             comparison = compare_trends(phos_trend, climate_trend)
             comparisons[f"{lake} vs {station} ({climate_type})"] = comparison
 
-for climate_type1 in ["insolation", "rainfall", "temperature", "snow"]:
+for climate_type1 in ["Insolation", "Rainfall", "Temperature", "Snow"]:
     for station1, trend1 in trends_results[climate_type1].items():
-        for climate_type2 in ["insolation", "rainfall", "temperature", "snow"]:
+        for climate_type2 in ["Insolation", "Rainfall", "Temperature", "Snow"]:
             if climate_type1 != climate_type2:
                 for station2, trend2 in trends_results[climate_type2].items():
                     comparison = compare_trends(trend1, trend2)

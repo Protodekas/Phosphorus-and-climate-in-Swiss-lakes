@@ -52,7 +52,7 @@ weather_full = insolation_melted \
 
 phospho_weather = pd.merge(phosphorus_melted, weather_full, on=["Year", "Station"], how="left")
 
-# Correlation beetwen phosphorus and climate datas per lake
+# Correlation beetwen phosphorus and climate data per lake
 for lake in phospho_weather["Lake"].unique():
     subset = phospho_weather[phospho_weather["Lake"] == lake]
     print(f"\nCorrelation for {lake.title()}:")
@@ -127,7 +127,7 @@ for lake in phospho_weather["Lake"].unique():
 
     plt.figure(figsize=(6, 5))
     sns.heatmap(corr_trimmed, annot=True, cmap="coolwarm", center=0, linewidths=0.5, vmin=-1, vmax=1)
-    plt.title(f"Correlation between climate datas - {lake}")
+    plt.title(f"Correlation between climate data - {lake}")
     plt.tight_layout()
     plt.show()
 
