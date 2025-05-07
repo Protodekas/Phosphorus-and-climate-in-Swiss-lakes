@@ -4,7 +4,6 @@ from scipy.stats import linregress
 import matplotlib.pyplot as plt
 import ipywidgets as widgets
 from IPython.display import display
-#jupyter nbextension enable --py widgetsnbextension # Activate widgets in Jupyter
 import json
 
 # Importing phosphorus dataset
