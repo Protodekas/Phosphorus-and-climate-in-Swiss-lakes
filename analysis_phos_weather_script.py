@@ -169,9 +169,10 @@ for index, row in ridge_lasso_df.iterrows():
     print(f"Lake: {row['Lake']}, Model: {row['Model']}, R²: {row['R² test']}, RMSE: {row['RMSE test']}")
 coeffs_df = pd.DataFrame([row["Coefficients"] for index, row in ridge_lasso_df.iterrows()])
 coeffs_df.index = ridge_lasso_df["Lake"] + "-" + ridge_lasso_df["Model"]
+print("Ridge and Lasso regression results")
 print(coeffs_df)
 
-# Testing random Forest regression
+# Testing Random Forest Regression
 rf_results = []
 for lake in phospho_weather["Lake"].unique():
     subset = phospho_weather[phospho_weather["Lake"] == lake].dropna()
@@ -192,4 +193,5 @@ for lake in phospho_weather["Lake"].unique():
         })
 
 rf_df = pd.DataFrame(rf_results)
+print("Random Forest Regression results")
 print(rf_df)
