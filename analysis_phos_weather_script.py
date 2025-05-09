@@ -66,7 +66,6 @@ for var in ["Insolation", "Rainfall", "Temperature", "Snow"]:
     plt.show()
 
 # Multiple linear regression
-
 results_list = []
 
 for lake in phospho_weather["Lake"].unique():
