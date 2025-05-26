@@ -1,0 +1,916 @@
+{
+    "Descriptive statistics": {
+        "Phosphorus": {
+            "Lake Lucerne": {
+                "Lake Lucerne": {
+                    "count": 60.0,
+                    "mean": 12.801950271950258,
+                    "std": 9.608445734684581,
+                    "min": 3.0,
+                    "25%": 5.0,
+                    "50%": 7.08333333333333,
+                    "75%": 21.057692307692275,
+                    "max": 31.7692307692307
+                }
+            },
+            "Lake Hallwil": {
+                "Lake Hallwil": {
+                    "count": 54.0,
+                    "mean": 100.56120499870495,
+                    "std": 86.74194641176663,
+                    "min": 10.6,
+                    "25%": 20.3,
+                    "50%": 54.2,
+                    "75%": 180.41666666666652,
+                    "max": 256.5
+                }
+            },
+            "Lake Neuch\u00e2tel": {
+                "Lake Neuch\u00e2tel": {
+                    "count": 50.0,
+                    "mean": 21.9452554112554,
+                    "std": 19.30745520237615,
+                    "min": 4.0,
+                    "25%": 8.0,
+                    "50%": 11.375,
+                    "75%": 33.0,
+                    "max": 85.4285714285714
+                }
+            },
+            "Lake Constance": {
+                "Lake Constance": {
+                    "count": 60.0,
+                    "mean": 33.47360790678723,
+                    "std": 27.62980686223775,
+                    "min": 5.38461538461538,
+                    "25%": 7.58333333333333,
+                    "50%": 25.12499999999995,
+                    "75%": 54.95833333333333,
+                    "max": 83.5
+                }
+            },
+            "Lake Zug": {
+                "Lake Zug": {
+                    "count": 50.0,
+                    "mean": 133.71820424020402,
+                    "std": 44.18266226345977,
+                    "min": 75.9090909090909,
+                    "25%": 87.22435897435889,
+                    "50%": 134.63888888888852,
+                    "75%": 176.04166666666652,
+                    "max": 199.916666666666
+                }
+            },
+            "Lake Geneva": {
+                "Lake Geneva": {
+                    "count": 67.0,
+                    "mean": 43.41738862080571,
+                    "std": 24.455574718952942,
+                    "min": 9.28571428571428,
+                    "25%": 21.51587301587295,
+                    "50%": 38.7894736842105,
+                    "75%": 67.0535714285714,
+                    "max": 93.5
+                }
+            }
+        },
+        "Insolation": {
+            "Geneva-Cointrin": {
+                "Geneva-Cointrin": {
+                    "count": 94.0,
+                    "mean": 1801.9265957446805,
+                    "std": 180.57071540965677,
+                    "min": 1425.2,
+                    "25%": 1677.95,
+                    "50%": 1806.4,
+                    "75%": 1939.25,
+                    "max": 2342.5
+                }
+            },
+            "Lucerne": {
+                "Lucerne": {
+                    "count": 94.0,
+                    "mean": 1448.695744680851,
+                    "std": 182.5864319794543,
+                    "min": 1045.6,
+                    "25%": 1325.475,
+                    "50%": 1436.15,
+                    "75%": 1562.8,
+                    "max": 1986.3
+                }
+            },
+            "Neuch\u00e2tel": {
+                "Neuch\u00e2tel": {
+                    "count": 94.0,
+                    "mean": 1718.2382978723406,
+                    "std": 182.49611049405598,
+                    "min": 1367.4,
+                    "25%": 1573.575,
+                    "50%": 1695.6999999999998,
+                    "75%": 1838.95,
+                    "max": 2243.5
+                }
+            },
+            "St-Gallen": {
+                "St-Gallen": {
+                    "count": 66.0,
+                    "mean": 1519.892424242424,
+                    "std": 192.68690531581657,
+                    "min": 1097.9,
+                    "25%": 1371.1,
+                    "50%": 1510.85,
+                    "75%": 1652.4499999999998,
+                    "max": 2007.1
+                }
+            },
+            "Z\u00fcrich-Fluntern": {
+                "Z\u00fcrich-Fluntern": {
+                    "count": 94.0,
+                    "mean": 1633.072340425532,
+                    "std": 180.31008380979634,
+                    "min": 1281.5,
+                    "25%": 1506.075,
+                    "50%": 1612.25,
+                    "75%": 1741.0,
+                    "max": 2148.5
+                }
+            }
+        },
+        "Rainfall": {
+            "Geneva-Cointrin": {
+                "Geneva-Cointrin": {
+                    "count": 94.0,
+                    "mean": 929.0159574468087,
+                    "std": 163.21147657780637,
+                    "min": 619.0,
+                    "25%": 822.5250000000001,
+                    "50%": 939.55,
+                    "75%": 1038.8,
+                    "max": 1334.2
+                }
+            },
+            "Lucerne": {
+                "Lucerne": {
+                    "count": 94.0,
+                    "mean": 1255.7499999999998,
+                    "std": 155.72042203484324,
+                    "min": 830.9,
+                    "25%": 1141.625,
+                    "50%": 1273.45,
+                    "75%": 1336.2,
+                    "max": 1635.1
+                }
+            },
+            "Neuch\u00e2tel": {
+                "Neuch\u00e2tel": {
+                    "count": 94.0,
+                    "mean": 937.8606382978722,
+                    "std": 160.52385694671855,
+                    "min": 589.8,
+                    "25%": 812.5,
+                    "50%": 934.45,
+                    "75%": 1042.725,
+                    "max": 1301.8
+                }
+            },
+            "St-Gallen": {
+                "St-Gallen": {
+                    "count": 94.0,
+                    "mean": 1436.8212765957448,
+                    "std": 165.65520602858908,
+                    "min": 970.7,
+                    "25%": 1327.5,
+                    "50%": 1456.9,
+                    "75%": 1556.1000000000001,
+                    "max": 1878.0
+                }
+            },
+            "Z\u00fcrich-Fluntern": {
+                "Z\u00fcrich-Fluntern": {
+                    "count": 94.0,
+                    "mean": 1085.7968085106381,
+                    "std": 166.8071666623468,
+                    "min": 646.7,
+                    "25%": 961.275,
+                    "50%": 1077.65,
+                    "75%": 1194.575,
+                    "max": 1549.0
+                }
+            }
+        },
+        "Temperature": {
+            "Geneva-Cointrin": {
+                "Geneva-Cointrin": {
+                    "count": 94.0,
+                    "mean": 10.167021276595744,
+                    "std": 0.9489539569682317,
+                    "min": 8.5,
+                    "25%": 9.525,
+                    "50%": 9.95,
+                    "75%": 10.7,
+                    "max": 12.8
+                }
+            },
+            "Lucerne": {
+                "Lucerne": {
+                    "count": 94.0,
+                    "mean": 9.225531914893617,
+                    "std": 0.9951426298823686,
+                    "min": 7.4,
+                    "25%": 8.5,
+                    "50%": 9.05,
+                    "75%": 9.8,
+                    "max": 11.6
+                }
+            },
+            "Neuch\u00e2tel": {
+                "Neuch\u00e2tel": {
+                    "count": 94.0,
+                    "mean": 9.837234042553192,
+                    "std": 0.9790256339580302,
+                    "min": 7.8,
+                    "25%": 9.2,
+                    "50%": 9.7,
+                    "75%": 10.4,
+                    "max": 12.5
+                }
+            },
+            "St-Gallen": {
+                "St-Gallen": {
+                    "count": 94.0,
+                    "mean": 7.7946808510638315,
+                    "std": 1.0270918357110106,
+                    "min": 5.9,
+                    "25%": 7.0,
+                    "50%": 7.7,
+                    "75%": 8.4,
+                    "max": 10.2
+                }
+            },
+            "Z\u00fcrich-Fluntern": {
+                "Z\u00fcrich-Fluntern": {
+                    "count": 94.0,
+                    "mean": 8.962765957446809,
+                    "std": 0.9895131900269173,
+                    "min": 7.1,
+                    "25%": 8.2,
+                    "50%": 8.9,
+                    "75%": 9.5,
+                    "max": 11.5
+                }
+            }
+        },
+        "Snow": {
+            "Geneva-Cointrin": {
+                "Geneva-Cointrin": {
+                    "count": 62.0,
+                    "mean": 31.85483870967742,
+                    "std": 27.240788350808767,
+                    "min": 1.0,
+                    "25%": 13.25,
+                    "50%": 22.5,
+                    "75%": 42.0,
+                    "max": 111.0
+                }
+            },
+            "Lucerne": {
+                "Lucerne": {
+                    "count": 90.0,
+                    "mean": 71.82222222222222,
+                    "std": 48.71323512050003,
+                    "min": 0.0,
+                    "25%": 32.0,
+                    "50%": 64.0,
+                    "75%": 108.25,
+                    "max": 192.0
+                }
+            },
+            "Neuch\u00e2tel": {
+                "Neuch\u00e2tel": {
+                    "count": 94.0,
+                    "mean": 50.47872340425532,
+                    "std": 35.110494930529796,
+                    "min": 3.0,
+                    "25%": 23.25,
+                    "50%": 43.5,
+                    "75%": 71.25,
+                    "max": 165.0
+                }
+            },
+            "St-Gallen": {
+                "St-Gallen": {
+                    "count": 87.0,
+                    "mean": 190.183908045977,
+                    "std": 82.12873172798459,
+                    "min": 31.0,
+                    "25%": 131.0,
+                    "50%": 188.0,
+                    "75%": 254.0,
+                    "max": 436.0
+                }
+            },
+            "Z\u00fcrich-Fluntern": {
+                "Z\u00fcrich-Fluntern": {
+                    "count": 94.0,
+                    "mean": 89.81914893617021,
+                    "std": 51.373806715798295,
+                    "min": 7.0,
+                    "25%": 50.25,
+                    "50%": 78.5,
+                    "75%": 118.75,
+                    "max": 220.0
+                }
+            }
+        }
+    },
+    "Trends analysis results": {
+        "Phosphorus": {
+            "Lake Lucerne": {
+                "slope": -0.44513571634705024,
+                "intercept": 899.9129193799866,
+                "r_value": -0.8285874799870231,
+                "trend": "negative"
+            },
+            "Lake Hallwil": {
+                "slope": -5.101003972521978,
+                "intercept": 10279.614632166313,
+                "r_value": -0.9251541478333278,
+                "trend": "negative"
+            },
+            "Lake Neuch\u00e2tel": {
+                "slope": -1.0832401081644774,
+                "intercept": 2186.8006115779635,
+                "r_value": -0.8178603672866149,
+                "trend": "negative"
+            },
+            "Lake Constance": {
+                "slope": -1.2799186993899738,
+                "intercept": 2584.9915351407,
+                "r_value": -0.8090110520479303,
+                "trend": "negative"
+            },
+            "Lake Zug": {
+                "slope": -2.932286395743772,
+                "intercept": 5993.892566134132,
+                "r_value": -0.9674621242568129,
+                "trend": "negative"
+            },
+            "Lake Geneva": {
+                "slope": -0.5602079908113597,
+                "intercept": 1158.2312903354116,
+                "r_value": -0.4463470415588004,
+                "trend": "negative"
+            }
+        },
+        "Insolation": {
+            "Geneva-Cointrin": {
+                "slope": 1.8028587942058305,
+                "intercept": -1763.2266697973491,
+                "r_value": 0.2723638725117764,
+                "trend": "positive"
+            },
+            "Lucerne": {
+                "slope": 1.9474305530469964,
+                "intercept": -2402.3481739695844,
+                "r_value": 0.2909568483777094,
+                "trend": "positive"
+            },
+            "Neuch\u00e2tel": {
+                "slope": 1.7763262652169205,
+                "intercept": -1794.4468915941195,
+                "r_value": 0.2655242745792212,
+                "trend": "positive"
+            },
+            "St-Gallen": {
+                "slope": 5.704379501095919,
+                "intercept": -9840.379352190099,
+                "r_value": 0.5682964654484222,
+                "trend": "positive"
+            },
+            "Z\u00fcrich-Fluntern": {
+                "slope": 1.2598374453635803,
+                "intercept": -858.2562077809482,
+                "r_value": 0.1906029436929943,
+                "trend": "positive"
+            }
+        },
+        "Rainfall": {
+            "Geneva-Cointrin": {
+                "slope": 0.503174511433009,
+                "intercept": -66.01163891196654,
+                "r_value": 0.08410136528923537,
+                "trend": "positive"
+            },
+            "Lucerne": {
+                "slope": 1.1157916410793631,
+                "intercept": -950.7279702344406,
+                "r_value": 0.1954666356169597,
+                "trend": "positive"
+            },
+            "Neuch\u00e2tel": {
+                "slope": 0.6286753603294438,
+                "intercept": -305.34488675360296,
+                "r_value": 0.10683706771221381,
+                "trend": "positive"
+            },
+            "St-Gallen": {
+                "slope": 0.3553227612614237,
+                "intercept": 734.1705162012795,
+                "r_value": 0.05851309170180606,
+                "trend": "positive"
+            },
+            "Z\u00fcrich-Fluntern": {
+                "slope": 0.6233898060181338,
+                "intercept": -146.9565328902213,
+                "r_value": 0.10194832552419024,
+                "trend": "positive"
+            }
+        },
+        "Temperature": {
+            "Geneva-Cointrin": {
+                "slope": 0.02541848788064877,
+                "intercept": -40.0980385073872,
+                "r_value": 0.7307009577923131,
+                "trend": "positive"
+            },
+            "Lucerne": {
+                "slope": 0.027754217389733774,
+                "intercept": -45.658432973304926,
+                "r_value": 0.7608144651858516,
+                "trend": "positive"
+            },
+            "Neuch\u00e2tel": {
+                "slope": 0.02738792760900192,
+                "intercept": -44.32239280424811,
+                "r_value": 0.7631329657257716,
+                "trend": "positive"
+            },
+            "St-Gallen": {
+                "slope": 0.028514973088176854,
+                "intercept": -48.593678430805895,
+                "r_value": 0.7573537766222751,
+                "trend": "positive"
+            },
+            "Z\u00fcrich-Fluntern": {
+                "slope": 0.026961673229057532,
+                "intercept": -44.35394285301446,
+                "r_value": 0.7432935421314719,
+                "trend": "positive"
+            }
+        },
+        "Snow": {
+            "Geneva-Cointrin": {
+                "slope": -0.5326735665180932,
+                "intercept": 1093.739593563496,
+                "r_value": -0.3527905718603668,
+                "trend": "negative"
+            },
+            "Lucerne": {
+                "slope": -0.5767477412013108,
+                "intercept": 1211.5398419183682,
+                "r_value": -0.3195520538138694,
+                "trend": "negative"
+            },
+            "Neuch\u00e2tel": {
+                "slope": -0.5945959614203663,
+                "intercept": 1226.2922371130296,
+                "r_value": -0.46197674015871465,
+                "trend": "negative"
+            },
+            "St-Gallen": {
+                "slope": -0.35184442662389737,
+                "intercept": 887.1877171879177,
+                "r_value": -0.10820962676145915,
+                "trend": "negative"
+            },
+            "Z\u00fcrich-Fluntern": {
+                "slope": -0.422461438427916,
+                "intercept": 925.2366434273741,
+                "r_value": -0.22432642354682308,
+                "trend": "negative"
+            }
+        }
+    },
+    "Trends comparison": {
+        "Lake Lucerne vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Lake Lucerne vs Lucerne (Insolation)": "Trends are opposite.",
+        "Lake Lucerne vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Lake Lucerne vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Lake Lucerne vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Lake Lucerne vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Lake Lucerne vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Lake Lucerne vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Lake Lucerne vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Lake Lucerne vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Lake Lucerne vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Lake Lucerne vs Lucerne (Temperature)": "Trends are opposite.",
+        "Lake Lucerne vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Lake Lucerne vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Lake Lucerne vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Lake Lucerne vs Geneva-Cointrin (Snow)": "Trends are similar.",
+        "Lake Lucerne vs Lucerne (Snow)": "Trends are similar.",
+        "Lake Lucerne vs Neuch\u00e2tel (Snow)": "Trends are similar.",
+        "Lake Lucerne vs St-Gallen (Snow)": "Trends are similar.",
+        "Lake Lucerne vs Z\u00fcrich-Fluntern (Snow)": "Trends are similar.",
+        "Lake Hallwil vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Lake Hallwil vs Lucerne (Insolation)": "Trends are opposite.",
+        "Lake Hallwil vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Lake Hallwil vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Lake Hallwil vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Lake Hallwil vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Lake Hallwil vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Lake Hallwil vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Lake Hallwil vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Lake Hallwil vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Lake Hallwil vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Lake Hallwil vs Lucerne (Temperature)": "Trends are opposite.",
+        "Lake Hallwil vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Lake Hallwil vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Lake Hallwil vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Lake Hallwil vs Geneva-Cointrin (Snow)": "Trends are similar.",
+        "Lake Hallwil vs Lucerne (Snow)": "Trends are similar.",
+        "Lake Hallwil vs Neuch\u00e2tel (Snow)": "Trends are similar.",
+        "Lake Hallwil vs St-Gallen (Snow)": "Trends are similar.",
+        "Lake Hallwil vs Z\u00fcrich-Fluntern (Snow)": "Trends are similar.",
+        "Lake Neuch\u00e2tel vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Lucerne (Insolation)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Lucerne (Temperature)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Lake Neuch\u00e2tel vs Geneva-Cointrin (Snow)": "Trends are similar.",
+        "Lake Neuch\u00e2tel vs Lucerne (Snow)": "Trends are similar.",
+        "Lake Neuch\u00e2tel vs Neuch\u00e2tel (Snow)": "Trends are similar.",
+        "Lake Neuch\u00e2tel vs St-Gallen (Snow)": "Trends are similar.",
+        "Lake Neuch\u00e2tel vs Z\u00fcrich-Fluntern (Snow)": "Trends are similar.",
+        "Lake Constance vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Lake Constance vs Lucerne (Insolation)": "Trends are opposite.",
+        "Lake Constance vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Lake Constance vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Lake Constance vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Lake Constance vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Lake Constance vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Lake Constance vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Lake Constance vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Lake Constance vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Lake Constance vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Lake Constance vs Lucerne (Temperature)": "Trends are opposite.",
+        "Lake Constance vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Lake Constance vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Lake Constance vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Lake Constance vs Geneva-Cointrin (Snow)": "Trends are similar.",
+        "Lake Constance vs Lucerne (Snow)": "Trends are similar.",
+        "Lake Constance vs Neuch\u00e2tel (Snow)": "Trends are similar.",
+        "Lake Constance vs St-Gallen (Snow)": "Trends are similar.",
+        "Lake Constance vs Z\u00fcrich-Fluntern (Snow)": "Trends are similar.",
+        "Lake Zug vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Lake Zug vs Lucerne (Insolation)": "Trends are opposite.",
+        "Lake Zug vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Lake Zug vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Lake Zug vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Lake Zug vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Lake Zug vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Lake Zug vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Lake Zug vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Lake Zug vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Lake Zug vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Lake Zug vs Lucerne (Temperature)": "Trends are opposite.",
+        "Lake Zug vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Lake Zug vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Lake Zug vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Lake Zug vs Geneva-Cointrin (Snow)": "Trends are similar.",
+        "Lake Zug vs Lucerne (Snow)": "Trends are similar.",
+        "Lake Zug vs Neuch\u00e2tel (Snow)": "Trends are similar.",
+        "Lake Zug vs St-Gallen (Snow)": "Trends are similar.",
+        "Lake Zug vs Z\u00fcrich-Fluntern (Snow)": "Trends are similar.",
+        "Lake Geneva vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Lake Geneva vs Lucerne (Insolation)": "Trends are opposite.",
+        "Lake Geneva vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Lake Geneva vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Lake Geneva vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Lake Geneva vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Lake Geneva vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Lake Geneva vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Lake Geneva vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Lake Geneva vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Lake Geneva vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Lake Geneva vs Lucerne (Temperature)": "Trends are opposite.",
+        "Lake Geneva vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Lake Geneva vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Lake Geneva vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Lake Geneva vs Geneva-Cointrin (Snow)": "Trends are similar.",
+        "Lake Geneva vs Lucerne (Snow)": "Trends are similar.",
+        "Lake Geneva vs Neuch\u00e2tel (Snow)": "Trends are similar.",
+        "Lake Geneva vs St-Gallen (Snow)": "Trends are similar.",
+        "Lake Geneva vs Z\u00fcrich-Fluntern (Snow)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Lucerne (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Insolation) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Insolation) vs Lucerne (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Insolation) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Insolation) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Insolation) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Lucerne (Insolation) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Lucerne (Insolation) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Lucerne (Insolation) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Lucerne (Insolation) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Lucerne (Insolation) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Lucerne (Insolation) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Lucerne (Insolation) vs Lucerne (Temperature)": "Trends are similar.",
+        "Lucerne (Insolation) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Lucerne (Insolation) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Lucerne (Insolation) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Lucerne (Insolation) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Lucerne (Insolation) vs Lucerne (Snow)": "Trends are opposite.",
+        "Lucerne (Insolation) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Lucerne (Insolation) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Lucerne (Insolation) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Insolation) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Lucerne (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Insolation) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Insolation) vs Lucerne (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Insolation) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Insolation) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Insolation) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "St-Gallen (Insolation) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Lucerne (Rainfall)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "St-Gallen (Insolation) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Lucerne (Temperature)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "St-Gallen (Insolation) vs St-Gallen (Temperature)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "St-Gallen (Insolation) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "St-Gallen (Insolation) vs Lucerne (Snow)": "Trends are opposite.",
+        "St-Gallen (Insolation) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "St-Gallen (Insolation) vs St-Gallen (Snow)": "Trends are opposite.",
+        "St-Gallen (Insolation) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Lucerne (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Lucerne (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Insolation) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Insolation) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Rainfall) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Lucerne (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Lucerne (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Geneva-Cointrin (Rainfall) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Rainfall) vs Lucerne (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Rainfall) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Rainfall) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Rainfall) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Lucerne (Rainfall) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Lucerne (Insolation)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Lucerne (Rainfall) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Lucerne (Temperature)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Lucerne (Rainfall) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Lucerne (Rainfall) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Lucerne (Rainfall) vs Lucerne (Snow)": "Trends are opposite.",
+        "Lucerne (Rainfall) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Lucerne (Rainfall) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Lucerne (Rainfall) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Rainfall) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Lucerne (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Lucerne (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Neuch\u00e2tel (Rainfall) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Rainfall) vs Lucerne (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Rainfall) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Rainfall) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Rainfall) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "St-Gallen (Rainfall) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Lucerne (Insolation)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs St-Gallen (Insolation)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Lucerne (Temperature)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs St-Gallen (Temperature)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "St-Gallen (Rainfall) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "St-Gallen (Rainfall) vs Lucerne (Snow)": "Trends are opposite.",
+        "St-Gallen (Rainfall) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "St-Gallen (Rainfall) vs St-Gallen (Snow)": "Trends are opposite.",
+        "St-Gallen (Rainfall) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Lucerne (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Geneva-Cointrin (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Lucerne (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Neuch\u00e2tel (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs St-Gallen (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Lucerne (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Rainfall) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Temperature) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Lucerne (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Geneva-Cointrin (Temperature) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Temperature) vs Lucerne (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Temperature) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Temperature) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Temperature) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Lucerne (Temperature) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Lucerne (Temperature) vs Lucerne (Insolation)": "Trends are similar.",
+        "Lucerne (Temperature) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Lucerne (Temperature) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Lucerne (Temperature) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Lucerne (Temperature) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Lucerne (Temperature) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Lucerne (Temperature) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Lucerne (Temperature) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Lucerne (Temperature) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Lucerne (Temperature) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Lucerne (Temperature) vs Lucerne (Snow)": "Trends are opposite.",
+        "Lucerne (Temperature) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Lucerne (Temperature) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Lucerne (Temperature) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Temperature) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Lucerne (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Neuch\u00e2tel (Temperature) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Temperature) vs Lucerne (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Temperature) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Temperature) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Neuch\u00e2tel (Temperature) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "St-Gallen (Temperature) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Lucerne (Insolation)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "St-Gallen (Temperature) vs St-Gallen (Insolation)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Lucerne (Rainfall)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "St-Gallen (Temperature) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "St-Gallen (Temperature) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "St-Gallen (Temperature) vs Lucerne (Snow)": "Trends are opposite.",
+        "St-Gallen (Temperature) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "St-Gallen (Temperature) vs St-Gallen (Snow)": "Trends are opposite.",
+        "St-Gallen (Temperature) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Geneva-Cointrin (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Lucerne (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Neuch\u00e2tel (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs St-Gallen (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Geneva-Cointrin (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Lucerne (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Neuch\u00e2tel (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs St-Gallen (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are similar.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Geneva-Cointrin (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Lucerne (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Neuch\u00e2tel (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Temperature) vs St-Gallen (Snow)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Temperature) vs Z\u00fcrich-Fluntern (Snow)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Lucerne (Insolation)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Lucerne (Temperature)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Geneva-Cointrin (Snow) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Lucerne (Snow) vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Lucerne (Snow) vs Lucerne (Insolation)": "Trends are opposite.",
+        "Lucerne (Snow) vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Lucerne (Snow) vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Lucerne (Snow) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Lucerne (Snow) vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Lucerne (Snow) vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Lucerne (Snow) vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Lucerne (Snow) vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Lucerne (Snow) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Lucerne (Snow) vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Lucerne (Snow) vs Lucerne (Temperature)": "Trends are opposite.",
+        "Lucerne (Snow) vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Lucerne (Snow) vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Lucerne (Snow) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Lucerne (Insolation)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Lucerne (Temperature)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Neuch\u00e2tel (Snow) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Lucerne (Insolation)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "St-Gallen (Snow) vs St-Gallen (Insolation)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Lucerne (Rainfall)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "St-Gallen (Snow) vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Lucerne (Temperature)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "St-Gallen (Snow) vs St-Gallen (Temperature)": "Trends are opposite.",
+        "St-Gallen (Snow) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Geneva-Cointrin (Insolation)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Lucerne (Insolation)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Neuch\u00e2tel (Insolation)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs St-Gallen (Insolation)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Z\u00fcrich-Fluntern (Insolation)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Geneva-Cointrin (Rainfall)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Lucerne (Rainfall)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Neuch\u00e2tel (Rainfall)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs St-Gallen (Rainfall)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Z\u00fcrich-Fluntern (Rainfall)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Geneva-Cointrin (Temperature)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Lucerne (Temperature)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Neuch\u00e2tel (Temperature)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs St-Gallen (Temperature)": "Trends are opposite.",
+        "Z\u00fcrich-Fluntern (Snow) vs Z\u00fcrich-Fluntern (Temperature)": "Trends are opposite."
+    }
+}
