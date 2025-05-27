@@ -8,7 +8,7 @@ This repository contains an analysis of the phosphorus concentration in Swiss la
 
 ## Analysis steps
 - Cleaning and importing the data
-- Exploratory abalysis
+- Exploratory analysis
     - Descriptive statistics
     - Correlations between variables
 - Modelisation
