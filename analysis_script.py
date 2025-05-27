@@ -1,4 +1,4 @@
-# Importing required package for the analyses
+# === Importing required package for the analyses ===
 import pandas as pd
 from scipy.stats import linregress
 import matplotlib.pyplot as plt
@@ -12,13 +12,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
-# Importing the datasets
+# === Importing the datasets ===
 phosphorus = pd.read_excel("00-cleaned-data/phosphorus-lakes.xlsx", na_values=["..."])
 insolation = pd.read_excel("00-cleaned-data/weather-data.xlsx", sheet_name="Insolation", na_values=["..."])
 rainfall = pd.read_excel("00-cleaned-data/weather-data.xlsx", sheet_name="Rainfall", na_values=["..."])
 temperature = pd.read_excel("00-cleaned-data/weather-data.xlsx", sheet_name="Temperature", na_values=["..."])
 snow = pd.read_excel("00-cleaned-data/weather-data.xlsx", sheet_name="Fresh snow", na_values=["..."])
 
+# === Creating functions for the exploratory analysis ===
 # Function to generate descriptive statistics
 def desc_stat(df, x_col, y_col):
     stats = df[[x_col, y_col]].iloc[:, 1:].describe().to_dict()
@@ -66,6 +67,7 @@ def compare_trends(trend1, trend2):
     else:
         return "Trends are opposite."
 
+# === Exploratory analysis ===
 # Trends detection for each dataset
 trends_results = {}
 descriptive_stats = {}
@@ -124,6 +126,7 @@ with open("01-exploratory-analysis-outputs/trends_results.json", "w") as f:
 
 print("Trends analysis completed. The results are saved in 'trends_results.json'.")
 
+# === Preparing data for modelisation ===
 # Dictionnary for correspondance between lakes (phosphorus) and stations (weather)
 lake_to_station = {
         "Lake Lucerne": "Lucerne",
@@ -157,6 +160,7 @@ weather_full = insolation_melted \
 
 phospho_weather = pd.merge(phosphorus_melted, weather_full, on=["Year", "Station"], how="left")
 
+# === Calculating correlations between variables ===
 # Correlation beetwen phosphorus and climate data per lake
 for lake in phospho_weather["Lake"].unique():
     subset = phospho_weather[phospho_weather["Lake"] == lake]
@@ -177,6 +181,7 @@ for lake in phospho_weather["Lake"].unique():
     plt.tight_layout()
     plt.show()
 
+# === Calculating regression models ===
 # Linear regression scatter plot
 for var in ["Insolation", "Rainfall", "Temperature", "Snow"]:
     sns.lmplot(data=phospho_weather, x=var, y="Phosphorus", col="Lake", col_wrap=3, height=4, aspect=4)
